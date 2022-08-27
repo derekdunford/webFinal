@@ -1,0 +1,302 @@
+		body {
+		font-family: 'Ubuntu', sans-serif;
+		overflow-y: scroll; 
+		overflow-x:hidden;
+		
+		max-width: 100%;
+	}
+	
+	header {
+		box-shadow: inset 0px 1px 4px 2px black;
+		background: url("ocean.png");
+		background-size:cover;
+		padding-bottom: 1%;
+		overflow: hidden;
+		
+	}
+	
+	footer {
+		box-shadow: inset 0px 1px 4px 2px black;
+		background: url("ocean.png");
+		background-size:cover;
+		padding: 3%;
+		overflow: hidden;
+		
+	}
+	
+	a {
+		text-decoration: none;
+		color: black;
+		
+	}
+	
+	
+
+	
+	
+	h1 {
+		font-size: 4em;
+		margin: 0;
+		animation: water 3s infinite alternate;
+		position: relative;
+		text-shadow: -3px 2px 0px white;
+	}
+	
+	#wd {
+		text-align: center;
+		font-size: 7em;
+	}
+	
+	#wdDiv {
+		margin-top: -5%;
+    padding-bottom: 2%;
+
+	}
+	
+	p {
+		margin: 0;
+	}
+	
+	#active {
+		border-bottom: 3px solid black;
+    		padding-bottom: 3px;
+	}
+	
+	#out {
+		margin-top:0;
+	}
+	
+	#of {
+		margin-top:26%;
+	}
+	
+	#site{
+		margin-top:34%;
+	}
+	
+
+	
+	#oos {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		width: 50%;
+		
+	}
+	
+	.oosh1 {
+		margin: 0 5%;
+	}
+	
+	ul {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 92%;
+	}
+	
+	li {
+		padding: 0 5%;
+		margin: 2% 0;
+		font-size: 1.25em;
+		display: inline;
+	}
+
+	.imgPen {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 4%;
+	}
+	
+	#imgDiv {
+		    margin: 6% auto;
+	}
+
+	.icon {
+		
+		
+	}
+	
+	#laptop {
+		
+		}
+	
+	#computer {
+		
+	}
+	
+	#phone {
+		
+	}
+	
+	.thumb {
+		width: 75%;
+		box-shadow: -1px 3px 12px 3px black;
+	}
+	
+	.picFrame {
+		    text-align: center;
+    display: flex;
+    justify-content: center;
+	margin: 7% 0;
+	}
+	
+	.introTxt {
+		text-align: center;
+		font-size: 4em;
+	    text-shadow: -3px 2px 0px white;
+	}
+	
+	#seoImg {
+		border: 3px solid black;
+    		width: 85%;
+    		text-align: center;
+    		margin: 10% auto;
+    		height: 20em;
+	}
+	
+	#seoBar {
+		border-bottom: 3px solid black;
+		width: 100%;
+		height: 2em;
+	}
+	
+	.seoTxt {
+  	   border: 2px solid black;
+   	   font-size: 1.5em;
+	   display: inline-block;
+}
+
+	#arrows {
+	   display: inline;
+   	   font-size: 1.45em;
+   	   font-weight: bold;
+	   float: left;
+	   padding-left: 3%;
+	}
+	
+	#seoSymbols {
+		display: inline;
+		 font-size: 1.45em;
+   	   font-weight: bold;
+	   float: right;
+	   padding-right: 3%;
+	}
+	
+	#searchBar {
+	border: 2px solid black;
+    margin-top: 5%;
+    height: 2em;
+    width: 31%;
+    /* float: right; */
+    /* margin-right: 37%; */
+    margin-left: 15%;
+	}
+	
+	#searchButton {
+	    border: 2px solid black;
+    margin-top: 2%;
+    height: 1em;
+    width: 15%;
+    /* float: right; */
+    /* margin-right: 53%; */
+    border-radius: 14%;
+    margin-left: 18%;
+    font-size: 1.2em;
+    /* padding-top: 0.5%; */
+    padding-bottom: .5%;
+	}
+	
+	#yourSite {
+		    display: inline-block;
+    margin-top: 2%;
+    float: left;
+    margin-left: 11%;
+    font-size: 2em;
+	}
+	
+	#theirSite {
+	    float: left;
+    padding: 12% 0;
+	}
+	
+	#fish {
+	width: 152px;
+    height: 88px;
+    animation-timing-function: linear;
+	animation: goldie 7s infinite;
+   
+	position: relative;
+	 background-image: url("goldie.png");
+	 repeat: no repeat;
+	
+		}
+		
+	.contactTxt {
+		font-size: 2em;
+	    margin: 5%;
+	    padding: 0%;
+	    text-shadow: -2px 0px 0px white;
+	    font-weight: bold;
+	}
+	
+	.whyUsTxt {
+		text-align: center;
+    	font-size: 3em;
+    	margin: 3%;
+		font-weight:bold;
+	}
+		
+		@keyframes goldie {
+	 0%   { left: -5%; top: 4%;}
+    25%  { left:25%; top:5%;}
+    50%  { left:50%; top:7%;}
+    75%  { left: 75%; top:7%;}
+    100% {left: 105%; top:8%;}
+   
+
+}
+
+@keyframes water {
+	  /*
+	  from {text-shadow: 0px 8px 15px papayawhip;}
+      to {text-shadow: 1px -8px 12px papayawhip;} 
+	*/
+}
+
+#picDiv {
+	display: flex;
+	margin: 4% 9%;
+}
+
+.picHolder {
+	 max-width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 9px black;
+    cursor: pointer;
+    width: 24%;
+    text-align: center;
+    margin: 0 1%;
+	
+}
+
+#p1 {
+	
+}
+#p2 {
+	
+}
+
+#p3 {
+	
+}
+
+#p4{
+	
+}
+
+#fragHolder {
+	text-align: center;
+}
+

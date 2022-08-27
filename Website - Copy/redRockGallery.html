@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Red Rock Photography</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="redRockStyle.css" rel="stylesheet">
+	<script>
+	
+		var counter = 1;
+		var full = false;
+		
+	function picChangeUp() {
+		
+	var image1 = document.getElementById("image1");
+	var image2 = document.getElementById("image2");
+	var image3 = document.getElementById("image3");
+	var image4 = document.getElementById("image4");
+	var image5 = document.getElementById("image5");
+	var image6 = document.getElementById("image6");
+	var image7 = document.getElementById("image7");
+	var image8 = document.getElementById("image8");
+	var image9 = document.getElementById("image9");
+		
+	switch (counter) {
+	
+	
+ 			case 1:
+		    image1.style.display="none";
+			image2.style.display="block";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+			
+		
+		    counter = 2;
+		    break;
+		  
+		  case 2:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="block";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+		   
+		    counter = 3;
+		    break;
+		  
+		  case 3:
+		   
+			image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="block";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+		    counter = 4;
+			break;
+		
+		 case 4:
+		
+			image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="block";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+		
+			
+			
+		    counter = 5;
+			break;
+		 
+		 case 5:
+		 
+		 	image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="block";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+		    counter = 6;
+			break;
+			 
+			 case 6:
+	
+			image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="block";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+		    counter = 7;
+			break;
+			
+			case 7:
+		    
+			image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="block";
+			image9.style.display="none";
+			
+		    counter = 8;
+			break;
+			
+			case 8:
+			
+			image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="block";
+		 
+			
+			
+			
+		    counter = 9;
+			break;
+			
+			
+			case 9:
+		
+			image1.style.display="block";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+		    counter = 1;
+			break;
+		}
+		
+		
+		
+	}
+	
+	function picChangeDown() {
+		
+	var image1 = document.getElementById("image1");
+	var image2 = document.getElementById("image2");
+	var image3 = document.getElementById("image3");
+	var image4 = document.getElementById("image4");
+	var image5 = document.getElementById("image5");
+	var image6 = document.getElementById("image6");
+	var image7 = document.getElementById("image7");
+	var image8 = document.getElementById("image8");
+	var image9 = document.getElementById("image9");
+		
+	switch (counter) {
+	
+	
+ 			case 1:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+		    image9.style.display="block";
+			
+			
+		
+		    counter = 9;
+		    break;
+		  
+		  case 2:
+		    image1.style.display="block";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+		   
+		    counter = 1;
+		    break;
+		  
+		  case 3:
+		    image1.style.display="none";
+			image2.style.display="block";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+			
+		    counter = 2;
+			break;
+		
+		 case 4:
+		     image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="block";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+		    image9.style.display="none";
+			
+			
+		    counter = 3;
+			break;
+		 
+		 case 5:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="block";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+		    image9.style.display="none";
+			
+		    counter = 4;
+			break;
+			 
+			 case 6:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="block";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+		    counter = 5;
+			break;
+			
+			case 7:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="block";
+			image7.style.display="none";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+		    counter = 6;
+			break;
+			
+			case 8:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="block";
+			image8.style.display="none";
+			image9.style.display="none";
+			
+			
+		    counter = 7;
+			break;
+			
+			
+			case 9:
+		    image1.style.display="none";
+			image2.style.display="none";
+			image3.style.display="none";
+			image4.style.display="none";
+			image5.style.display="none";
+			image6.style.display="none";
+			image7.style.display="none";
+			image8.style.display="block";
+			image9.style.display="none";
+			
+			
+		    counter = 8;
+			break;
+			
+			
+		}
+		
+		
+		
+	}
+	
+	function changeUp(i) {
+		
+		counter = i;
+		picChangeUp();
+		
+	}
+	
+	function fullScreen() {
+		
+	
+	var gallery = document.getElementById("gallery");	
+	
+	if (full == false) {
+	
+	gallery.style.width = "75%";
+	full = true;
+	
+	} else {
+		gallery.style.width = "50%";
+		full = false;
+	}	
+		
+	}
+	
+	</script>
+</head>
+<body>
+
+	<div id="box2">
+		<a href="redRock.html"><h1>Red Rock Photography</h1></a>
+		<ul>
+			<a href="redRockGallery.html"><li id="leftLi" class="active">Gallery</li></a>
+			<a href="redRockAbout.html"><li>About Us</li></a>
+			<a href="portfolio.html"><li>Back to outofsitewd</li></a>
+		</ul>
+	</div>
+	
+	<div id="page">
+	
+	
+			<div id="prevDiv" onclick="picChangeDown()"><p class="nxprv">&#8249;</p></div>
+			 <div id="nextDiv" onclick="picChangeUp()"><p class="nxprv">&#8250;</p></div>
+			<div id="gallery" >
+				<img src="redRockPic1.jpg" id="image1" onclick="fullScreen()">
+				<img src="redRockPic2.jpg" id="image2"  onclick="fullScreen()">
+				<img src="redRockPic3.jpg" id="image3"  onclick="fullScreen()">
+				<img src="redRockPic4.jpg" id="image4"  onclick="fullScreen()">
+				<img src="redRockPic5.jpg" id="image5"  onclick="fullScreen()">
+				<img src="redRockPic6.jpg" id="image6"  onclick="fullScreen()">
+				<img src="redRockPic7.jpg" id="image7"  onclick="fullScreen()">
+				<img src="redRockPic8.jpg" id="image8"  onclick="fullScreen()">
+				<img src="redRockPic9.jpg" id="image9"  onclick="fullScreen()">
+			</div>
+		
+			
+		
+	
+		
+		<div id="thumbHolder">
+			<h2 id="click">Click to minimize/maximize image</h2>
+			<h2 id="click">Click thumbnails or use arrows to navigate gallery</h2>
+			<div class="thumb" onclick="changeUp(9)"><img src="redRockPic1.jpg"></div>
+			<div class="thumb" onclick="changeUp(1)"><img src="redRockPic2.jpg"></div>
+			<div class="thumb" onclick="changeUp(2)"><img src="redRockPic3.jpg"></div>
+			<div class="thumb" onclick="changeUp(3)"><img src="redRockPic4.jpg"></div>
+			<div class="thumb" onclick="changeUp(4)"><img src="redRockPic5.jpg"></div>
+			<div class="thumb" onclick="changeUp(5)"><img src="redRockPic6.jpg"></div>
+			<div class="thumb" onclick="changeUp(6)"><img src="redRockPic7.jpg"></div>
+			<div class="thumb" onclick="changeUp(7)"><img src="redRockPic8.jpg"></div>
+			<div class="thumb" onclick="changeUp(8)"><img src="redRockPic9.jpg"></div>
+		</div>
+	
+	
+	
+	</div>
+
+		<footer>
+	
+		
+	<a href="https://www.instagram.com"><img class="socialMedia" src="instagram.png"></a>
+		<a href="https://www.facebook.com"><img class="socialMedia" src="facebook.png"></a>
+		<a href="https://www.twitter.com"><img class="socialMedia" src="twitter.png"></a>
+		<a href="https://www.youtube.com"><img class="socialMedia" src="youtube.png"></a>
+	
+	</footer>
+	
+
+</body>
+</html>

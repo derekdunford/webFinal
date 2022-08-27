@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Big Burger</title>
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="burgers.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+	<script>
+				// Initialize and add the map
+				function initMap() {
+				  // The location of Uluru
+				  var uluru = {lat: -25.344, lng: 131.036};
+				  // The map, centered at Uluru
+				  var map = new google.maps.Map(
+				      document.getElementById('map'), {zoom: 4, center: uluru});
+				  // The marker, positioned at Uluru
+				  var marker = new google.maps.Marker({position: uluru, map: map});
+				}
+				    </script>
+				    <!--Load the API from the specified URL
+				    * The async attribute allows the browser to render the page while the API loads
+				    * The key parameter will contain your own API key (which is not needed for this tutorial)
+				    * The callback parameter executes the initMap() function
+				    -->
+				    <script async defer
+				    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXL-6fe3lpA5lLfhlF9rxa8NFCCtkCAyM&callback=initMap">
+	</script>
+
+</head>
+<body>
+
+<h1>Big Burger</h1>
+		
+		<ul id="navbar">
+			<a href="b3two.html"><li >Menu</li></a>
+			<a href="b3.html"><li>About Us</li></a>
+			<a href="b3three.html"><li style="border-bottom:3px solid black;">Location</li></a>
+		</ul>
+		
+		<div id="box5">
+						
+						
+						<div id="map"></div>
+				    
+		
+		
+		
+		</div>
+		
+		
+	<div class="txtbox2">
+	
+	
+	
+		<p class="abouttxt2"> They might call us the underdog,
+			but never the little guy. </p>
+			
+		<p class="abouttxt2">Dream Big, Eat Bigger.</p>
+		
+		<div id="socialMediaBar">
+			
+			
+			    <a href="https://www.instagram.com"><img class="socialMedia2" src="instagram2.png"></a>
+				<a href="https://www.facebook.com"><img class="socialMedia2" src="facebook2.png"></a>
+				<a href="https://www.twitter.com"><img class="socialMedia2" src="twitter2.png"></a>
+				<a href="https://www.youtube.com"><img class="socialMedia2" src="youtube2.png"></a>
+			
+			
+			
+		</div>
+	
+	</div>
+	
+
+</body>
+</html>
